@@ -2,6 +2,7 @@
 // function App() {
 
 import { useState } from "react";
+import My_ui from "./Pages/My_ui";
 
 
 //   return (
@@ -11,22 +12,18 @@ import { useState } from "react";
 // }
 
 const App=()=>{
-  // const clothes="shirt";
-  const[clothes,setClothes]=useState("shirt")   // state 
-  // const shoes="sneakers";
-  const ChangeCothes=()=>{
-    setClothes("pants");
 
-  }
+
+
+
+
 
 
   return(
     <div>
-      {clothes}
-      <button onClick={ ChangeCothes}>Change clothes</button>
-        <p> react</p>
+      <My_ui/>
     </div>
   );
 };
 
-export default App
+export default App;
