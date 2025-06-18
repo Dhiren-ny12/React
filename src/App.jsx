@@ -13,7 +13,7 @@ import { useState } from "react";
 const App=()=>{
   // const clothes="shirt";
   const[clothes,setClothes]=useState("shirt")   // state 
-  const shoes="sneakers";
+  // const shoes="sneakers";
   const ChangeCothes=()=>{
     setClothes("pants");
 
@@ -24,7 +24,7 @@ const App=()=>{
     <div>
       {clothes}
       <button onClick={ ChangeCothes}>Change clothes</button>
-        <p> "react"</p>
+        <p> react</p>
     </div>
   );
 };
